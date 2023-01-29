@@ -72,3 +72,5 @@ We used the image `khaledeltaweel/k8s-web-server` in the `deployment.yml` file, 
 - All pods are running
 
 # you can see the pods status after running the deployment again using the command `kubectl get po`
+
+![a65f3d26-9b28-42fc-a23f-28b82fd5723f](https://user-images.githubusercontent.com/35044692/215352562-e9a9d2c3-c0b4-4c95-a537-21a68a450197.jpg)
