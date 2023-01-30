@@ -59,7 +59,7 @@ spec:
 
 The web browser will open and the application  will be running on ip looks like this ip `172.26.177.67:30374`
 
-# 3- Start thr recreate deployment strategy
+# 3- Start the recreate deployment strategy
 
 We used the image `khaledeltaweel/k8s-web-server` in the `deployment.yml` file, so we will change the image version to be `khaledeltaweel/k8s-web-server:1.0` and then run the deployment again using the command
 
