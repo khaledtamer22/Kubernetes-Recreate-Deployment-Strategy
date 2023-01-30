@@ -36,6 +36,9 @@ spec:
         ports:
         - containerPort: 3000
 ```
+Create the deployment using the command 
+
+`kubectl apply -f deployment.yml`
 
 # 2- Create  `service.yml` file
 
@@ -52,6 +55,10 @@ spec:
       targetPort: 3000
   type: NodePort
 ```
+
+Create the service using the command 
+
+`kubectl apply -f service.yml`
 
 # Now we have created a normal application and you can run the application using the command
 
